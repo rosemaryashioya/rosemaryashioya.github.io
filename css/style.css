@@ -1,0 +1,28 @@
+.my-pic{
+  text-align: center;
+}
+
+.name{
+  text-align: center;
+  color: #5ca3fa;
+}
+
+/*center alignment stylesheet*/
+.my-align{
+  text-align: center;
+}
+
+/*two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 48%;
+    margin: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
